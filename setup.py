@@ -15,5 +15,8 @@ setup(
     license='MIT',
     packages=["maxcube"],
     test_suite="tests",
+    classifiers=[
+        "License :: OSI Approved :: MIT License",
+    ],
     python_requires=">=3.7",
 )
